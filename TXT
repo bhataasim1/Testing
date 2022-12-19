@@ -1,5 +1,3 @@
 google-site-verification=awygAJZaxyTZOHSNBEcTU6RGTIWcZkniKomlixgParg
-
 qvsr1y4rg21gb00ycvm0j6fb9j6fx9m2
-
 v=spf1 include:servers.mcsv.net include:_spf.google.com -all
